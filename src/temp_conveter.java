@@ -5,10 +5,10 @@ public class temp_conveter {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter the temperature in Fahrenheit");
-        double F = input.nextDouble();
+            double F = input.nextDouble();
 
-        float converter = (float) ((5.0/9.0) * (F-32));
-        System.out.println("The temperature in Celsius:" + converter);
+        double convert = (5.0 / 9.0) * (F - 32);
+            System.out.println("The temperature in Celsius:" + convert);
     }
 
 }

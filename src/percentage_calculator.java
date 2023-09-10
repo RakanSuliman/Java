@@ -4,14 +4,15 @@ public class percentage_calculator {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter number:");
-        double number = input.nextDouble();
+        System.out.println("Enter Purchase amount:");
+        double purchaseAmount = input.nextDouble();
 
-        System.out.println("Enter percentage:");
-        float percentage = input.nextFloat();
+        System.out.println("Enter tax const (5,10,15):");
+        int taxConst = input.nextInt();
 
-        float result = (float) (number) * ( percentage/100 );
-        System.out.println(result);
+        double tax =  (purchaseAmount) * ( taxConst/100.0 );
+        double afterTax = (tax+purchaseAmount);
+        System.out.println("Purchase amount before tax: " + purchaseAmount + "\nTax: " + tax + "\nPurchase amount before tax: " + afterTax);
     }
 
     }

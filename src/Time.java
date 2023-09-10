@@ -9,7 +9,7 @@ public class Time {
 
         long  sec_to_min = (sec/min);
         double  remain = sec%min;
-        System.out.println(sec_to_min + " MIN " + remain + " SEC");
+        System.out.println(sec_to_min + " MIN, " + remain + " SEC");
 
     }
 }

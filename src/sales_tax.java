@@ -1,10 +1,11 @@
 import java.util.Scanner;
 public class sales_tax {
     public static void main(String[] args) {
-    final float taxRate = 15f;
+  //  final float taxRate = 15f;
 
     Scanner input = new Scanner(System.in);
-
+    System.out.println("Enter Tax Rate(5,10,15):");
+        int taxRate = input.nextInt();
     System.out.println("Enter the purchase amount");
             double purchaseAmount = input.nextDouble();
 

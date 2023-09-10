@@ -15,7 +15,7 @@ public class AvgSumThreeValues {
 
         double sum = num1+num2+num3;
         double avg = sum/3;
-        System.out.println("Total: " + sum + "  Average: " + avg);
+        System.out.println("Total: " + sum + "  \nAverage: " + avg);
 
     }
 }

@@ -12,7 +12,7 @@ public class weight_converter {
 
         // step 2: specify the process
 
-        double kg = converter * lb;
+        float kg = (float) (converter * lb);
         // step3 : specify the output
         System.out.println("The weight in kg " + kg + "kg");
     }

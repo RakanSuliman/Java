@@ -8,7 +8,7 @@ public class temp_conveter {
             double F = input.nextDouble();
 
         double convert = (5.0 / 9.0) * (F - 32);
-            System.out.println("The temperature in Celsius:" + convert);
+            System.out.println("The temperature in Celsius is:" + convert);
     }
 
 }

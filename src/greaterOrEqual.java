@@ -18,6 +18,5 @@ public class greaterOrEqual {
         else {
             System.out.println(num2 + " is greater than " + num1 + "\n\t" + "Maximum: " + num2 + "\n\t" + "Minimum: " + num1);
     }
-
     }
 }

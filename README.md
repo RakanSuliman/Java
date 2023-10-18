@@ -1,2 +1,2 @@
-It's just a student who want to play with Java. there is nothing to explain.
+It's just a student who want to play with Java. There is nothing to explain.
 # Java

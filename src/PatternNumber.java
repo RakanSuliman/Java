@@ -8,9 +8,7 @@ public class PatternNumber {
 
                 System.out.print(i+ " ");
             }
-
             System.out.println();
-
         }
 
     }
